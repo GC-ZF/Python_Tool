@@ -19,9 +19,8 @@ class VPSBackup:
 
     def compress(self):
         '''
-        将需要备份的目录依次压缩并保持至 tmp 下
+        将需要备份的目录依次压缩并保存至 tmp 下
         '''
-        # 压缩
         for i in range ( 0, len ( compress_name_list ) ):
             zip_file = compress_dir + '/' + t + "-" + compress_name_list[ i ]
             zip = zipfile.ZipFile ( zip_file, 'w', zipfile.ZIP_DEFLATED )
@@ -80,17 +79,17 @@ if __name__ == '__main__':
     # 登录信息存放在 < 用户家目录 >/.aligo/< name >.json中
     # ali = Aligo () # 方式一，扫码登录
     # ali = Aligo ( refresh_token='<refresh_token>' ) # 方式二，从 网页控制台->应用 获取 token
-    ali = Aligo ( email=('1310446718@qq.com', 'haivhisaofwu1920u90du90w') )  # 方式三，发送邮箱，邮箱+随机定义一个字符
+    ali = Aligo ( email=('1310446718@qq.com', 'haivhisaofwu1920u90du90w') )  # 方式三，发送邮箱，邮箱+随机定义一个字符串
 
     # 备份目录路径数组
     backup_dir_list = [
-        'D:\Git repo\新建文件夹\_posts\C++笔记',
-        'D:\Git repo\新建文件夹\_posts\笔记'
+        'D:\Git repo\新建文件夹\_posts\测试1',
+        'D:\Git repo\新建文件夹\_posts\测试2'
     ]
 
     # 压缩包文件名数组与 backup_dir_list 一一对应
     compress_name_list = [
-        '测试.zip',
+        '测试1.zip',
         '测试2.zip'
     ]
     # 阿里云盘上传路径
