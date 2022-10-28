@@ -17,3 +17,9 @@ ToPDFChinese：为PDF添加水印，支持中文
 ToPDF2many：PDF同一页中添加多个水印且支持中文
 
 spider_csdn.py：CSDN文章转md
+
+Lsky迁移方案
+
+Twikoo备份方案：主要是vercel部署
+
+服务器备份至阿里云
