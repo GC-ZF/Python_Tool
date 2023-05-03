@@ -2,7 +2,7 @@
 @Author:张时贰
 @Date:2022年10月21日
 @CSDN:张时贰
-@Blog:zhangshier.vip
+@Blog:zhsher.cn
 @Function:上传单张图片测试
 @request请求：https://blog.csdn.net/m0_37737957/article/details/123843265
 """

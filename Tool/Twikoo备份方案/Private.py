@@ -2,7 +2,7 @@
 @Author:张时贰
 @Date:2022年08月08日
 @CSDN:张时贰
-@Blog:zhangshier.vip
+@Blog:zhsher.cn
 @Private:私有部署方案
 """
 import os

@@ -2,7 +2,7 @@
 @Author:张时贰
 @Date:2022年11月22日
 @CSDN:张时贰
-@Blog:zhangshier.vip
+@Blog:zhsher.cn
 """
 import urllib
 

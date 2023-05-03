@@ -2,7 +2,7 @@
 @Author:张时贰
 @Date:2022年12月12日
 @CSDN:张时贰
-@Blog:zhangshier.vip
+@Blog:zhsher.cn
 """
 '''
 1，Document对象，表示一个word文档。

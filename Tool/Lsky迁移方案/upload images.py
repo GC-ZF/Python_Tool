@@ -2,7 +2,7 @@
 @Author:张时贰
 @Date:2022年10月21日
 @CSDN:张时贰
-@Blog:zhangshier.vip
+@Blog:zhsher.cn
 @Function:批量上传图片
 """
 import os
